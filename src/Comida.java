@@ -113,7 +113,6 @@ public class Comida {
         return precoBase + valorDosAdicionais();
 		
 	}
-
     
 
     /**
@@ -137,9 +136,6 @@ public class Comida {
         return aux.toString();
 
 	}
-
-
-    
 
     /**
      * Tenta adicionar ingredientes à comida. O parâmetro deve ser um número inteiro não-negativo. Retorna a quantidade de adicionais
